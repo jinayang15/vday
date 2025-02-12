@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --off-white: #fdeef1;
+  --light-pink: #f3c9e0;
+  --pink: #f39db7;
+  --red: #d20f0f;
+  --dark-red: #800e12;
+  --font-family: "Sour Gummy";
+}
+
+.heart {
+  display: flex;
+  justify-content: center;
+  height: 250px;
+  aspect-ratio: 1;
+  --_m: radial-gradient(#000 69%, #0000 70%) 84.5%/50%;
+  -webkit-mask-box-image: var(--_m);
+  mask-border: var(--_m);
+  clip-path: polygon(-41% 0, 50% 91%, 141% 0);
+  background: var(--red);
+  animation: grow-shrink 1s ease-out alternate infinite;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.heart-text {
+  color: var(--off-white);
+  padding-top: 60px;
+  font-size: 24px;
+  font-weight: bold;
+  width: 200px;
+  text-align: center;
+}
+
+@keyframes grow-shrink {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}
+
+.cute-button {
+  background: var(--off-white);
+  border: var(--dark-red) solid 5px;
+  padding: 2rem 4rem;
+  border-radius: 2rem;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--dark-red);
+}
