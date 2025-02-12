@@ -63,7 +63,9 @@ h6 {
 }
 /* Reset end */
 
-body {
+html,
+body,
+#root {
   width: 100%;
   background: var(--light-pink);
   height: 100vh;
