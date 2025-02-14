@@ -1,11 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap");
 
 :root {
-  --off-white: #fdeef1;
+  --white-red: #fdeef1;
   --light-pink: #f3c9e0;
   --pink: #f39db7;
   --red: #d20f0f;
   --dark-red: #800e12;
+  --white-green: #f1fced;
+  --dark-green: #0e800e;
   --font-family: "Sour Gummy";
 }
 
@@ -36,7 +38,7 @@
 }
 
 .heart-text {
-  color: var(--off-white);
+  color: var(--white-red);
   padding-top: 60px;
   font-size: 24px;
   font-weight: bold;
@@ -54,7 +56,7 @@
 }
 
 .cute-button {
-  background: var(--off-white);
+  background: var(--white-red);
   border: var(--dark-red) solid 5px;
   padding: 2rem 4rem;
   border-radius: 2rem;
