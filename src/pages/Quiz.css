@@ -43,27 +43,24 @@
 .quiz-question {
   color: var(--dark-red);
   font-size: 48px;
-  margin-top: -6rem;
 }
 
 .quiz-image {
   max-height: 300px;
   width: auto;
   height: auto;
-  margin-top: 2rem;
-  margin-bottom: 3.5rem;
+  margin: 2rem 0rem;
   border: var(--dark-red) 5px solid;
 }
 
 .quiz-next-button {
-  max-height: 100px;
+  max-height: 75px;
+  margin-top: 1.5rem;
   width: auto;
   height: auto;
   display: inline;
 }
 
 .hidden {
-  width: 0;
-  height: 0;
-  display: none;
+  visibility: hidden;
 }
