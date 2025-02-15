@@ -68,6 +68,6 @@ body,
 #root {
   width: 100%;
   background: var(--light-pink);
-  height: 100vh;
+  height: 100%;
   font-family: var(--font-family);
 }

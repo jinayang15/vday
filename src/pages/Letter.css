@@ -1,0 +1,65 @@
+.letter-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.letter-page {
+  margin-top: 5rem;
+  background-color: var(--white-red);
+  width: 750px;
+  height: fit-content;
+  padding: 3rem;
+  box-shadow: 5px 5px 20px var(--pink);
+}
+
+.letter-title {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-family: "Yesteryear";
+  font-weight: 700;
+  font-size: 48px;
+  text-align: center;
+  color: var(--red);
+  margin-bottom: 2rem;
+}
+
+.letter-p {
+  font-family: "Oooh Baby";
+  font-size: 26px;
+  color: var(--dark-red);
+  margin: 1rem 0rem;
+  font-weight: 700;
+}
+
+.moving-heart {
+  max-height: 50px;
+  width: auto;
+  height: auto;
+  margin-top: -0.5rem;
+}
+
+.signature {
+  display: inline-block;
+  margin-top: 2rem;
+  max-height: 150px;
+  width: auto;
+  height: auto;
+}
+
+.kiss {
+  display: inline-block;
+  position: relative;
+  max-height: 125px;
+  width: auto;
+  height: auto;
+  margin-left: 15rem;
+  top: -2rem;
+}
+
+.letter.cute-button {
+  margin: 4rem 0;
+}

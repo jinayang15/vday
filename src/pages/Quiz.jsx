@@ -17,19 +17,19 @@ function Quiz() {
       question: "Who is my most played Valorant agent of all time?",
       options: ["Fade", "Omen", "Killjoy", "Sage", "Sova"],
       correctAnswer: "Sage",
-      imgSrc: "/quiz-photos/jett-heart.jpg",
+      imgSrc: "/quiz/jett-heart.jpg",
     },
     {
       question: "How many minutes of Spotify did I listen to in 2024?",
       options: ["40-49k", "50-59k", "60-69k", "70-79k", "80-89k"],
       correctAnswer: "80-89k",
-      imgSrc: "/quiz-photos/headphone-heart.jpg",
+      imgSrc: "/quiz/headphone-heart.jpg",
     },
     {
       question: "What was my dog's name back in the United States?",
       options: ["Lucky", "Louie", "Buddy", "Milo", "Rocky"],
       correctAnswer: "Louie",
-      imgSrc: "/quiz-photos/dog-heart.jpg",
+      imgSrc: "/quiz/dog-heart.jpg",
     },
     {
       question: "What is my go-to Subway order?",
@@ -41,31 +41,31 @@ function Quiz() {
         "Cold Cut Combo",
       ],
       correctAnswer: "Italian BMT",
-      imgSrc: "/quiz-photos/sandwich-heart.jpg",
+      imgSrc: "/quiz/sandwich-heart.jpg",
     },
     {
       question: "Which of these names did I NOT give a plushie?",
       options: ["Dotty", "Jelly", "Puffy", "Teddy", "Peter"],
       correctAnswer: "Jelly",
-      imgSrc: "/quiz-photos/bear-heart.jpg",
+      imgSrc: "/quiz/bear-heart.jpg",
     },
     {
       question: "Who was my first friend when I moved to Canada?",
       options: ["Jane", "Lauren", "Angela", "Floria", "Vicky"],
       correctAnswer: "Vicky",
-      imgSrc: "/quiz-photos/friend-heart.jpg",
+      imgSrc: "/quiz/friend-heart.jpg",
     },
     {
       question: "What is my favorite body part of yours?",
       options: ["Eyes", "Smile", "Shoulders", "Hands", "Arms"],
       correctAnswer: "Shoulders",
-      imgSrc: "/quiz-photos/human-heart.jpg",
+      imgSrc: "/quiz/human-heart.jpg",
     },
     {
       question: "Who do I love?",
       options: ["You"],
       correctAnswer: "You",
-      imgSrc: "/quiz-photos/rabbit-heart.jpg",
+      imgSrc: "/quiz/rabbit-heart.jpg",
     },
   ];
 
@@ -113,7 +113,7 @@ function Quiz() {
         </div>
         <img
           className={`quiz-next-button ${correctClicked ? "" : "hidden"}`}
-          src="/quiz-photos/next-button.svg"
+          src="/quiz/next-button.svg"
           onClick={() => {
             setPage(page + 1);
           }}
